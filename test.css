@@ -1,0 +1,36 @@
+.complete {
+  width: 5px;
+  height: 50px;
+  position: relative;
+  background: green;
+  margin-left: 8px;
+}
+.complete:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -7.5px;
+  left: -8px;
+  background: green;
+  z-index: 100;
+}
+.not_complete {
+  width: 5px;
+  height: 50px;
+  background: lightgreen;
+  position: relative;
+  margin-left: 8px;
+}
+.not_complete:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -7.5px;
+  left: -8px;
+  background: lightgreen;
+  z-index: 100;
+}

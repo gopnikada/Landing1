@@ -1,0 +1,185 @@
+body{
+	background-color: #e8e8f2;
+	padding-top: 40px;
+	padding-left: 20%;
+	padding-right: 20%;  
+}
+#mainButtons{
+
+	padding-left: 40%;
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+	font-family: sans-serif;
+	text-align: right;
+}
+
+#homeRef:hover
+{
+	color: #909090;
+}
+#aboutRef:hover
+{
+	color: #909090;
+}
+#servicesRef:hover
+{
+	color: #909090;
+}
+#portfolioRef:hover
+{
+	color: #909090;
+}
+#blogRef:hover
+{
+	color: #909090;
+}
+button{
+  background-color: #00b894; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#bio{
+	padding-top: 300px;
+	
+}
+.w3-button{
+	color: #FFFFFF;
+	background-color: #00b894;
+}
+.w3-button:hover{
+	background-color: #33EBC7;
+}
+.js{
+	color: #00b894;
+}
+#hi{
+	font-size: 1.2em;
+}
+.pgs{
+	font-size: 2em;
+}
+p{
+	font-family: sans-serif;
+	font-size: 0.85em;
+
+}
+.buttonsTwo{
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.mps{
+	text-align: center;
+}
+#servicelist1{
+		display:flex;	
+	justify-content: space-between;	
+	align-items: baseline;
+	flex-direction: row;
+}
+
+.service{
+	background-color: #fff;
+}
+#skills {
+	padding-bottom: 30px;
+/*	padding-top: 30px;
+*/	display:flex;
+justify-content: space-around;
+	background-color: #00b894;
+}
+.skillsH{
+
+	color: #fff;
+	text-align: center;
+	background-color: #00b894;
+}
+.sH{
+	/*font-size: 0.5em;*/
+	padding-left: 10px;
+	text-align: left;
+	color: #fff;
+}
+h1{
+	font-size: 1.5em;
+}
+#portfolio{
+	background-color: #fff;
+}
+.portItems{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.portItem{
+	width: 200px;
+	height: 200px;
+	margin: 15px;
+	background-color: #828282;
+}
+.projText{
+	padding-left: 10px;
+	color: #b8b8b8;
+	font-size: 0.5em;
+	text-decoration: none;
+}
+.projText:hover{
+	color: #00b894;	
+}
+.portItem2{
+	text-align: center;
+	color: white;
+	background-color: #e66d6d;
+}
+.pH{
+	padding-left: 10px;	
+	text-decoration: underline;
+	text-decoration-color: #00b894;
+}
+.piC, .piT{
+	padding-left: 20px;
+	padding-right: 20px;		
+	font-size: 0.6em;
+}
+.cFf{
+	text-decoration:underline;
+	text-decoration-color: #00b894;
+	text-align: center;
+}
+.fbIm1{
+	width: 15%;
+	height: 15%;
+}
+.fb1C{
+	display: flex;
+	justify-content: space-around;
+}
+
+.fb1sgn{
+	padding-top: 7%;
+	width: 20%;
+	height: 30%;
+}
+#feedback{
+	display: flex;
+
+}
+.fbN{
+	font-weight: bold;
+	font-size: 0.8em;	
+}
+.fbD{
+	font-size: 0.7em;	
+}
+.fb1C{
+	/*background-color: #000;*/
+}
+.contactNM{
+	display: flex;
+	justify-content: space-between;
+}
